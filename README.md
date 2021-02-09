@@ -22,10 +22,12 @@
 
 ***
 
-用户为 id：1001，密码：123456，姓名：CoderGeshu；id：1002，密码：456789，姓名：Eric；
+- 用户名：CoderGeshu，密码：123456，权限：p1；
+- 用户名：Eric，密码：456789，权限：p2；
 
-CoderGeshu 可以通过 `/resource/r1` 访问资源一；Eric 可以通过 `/resource/r2` 访问资源二。
+CoderGeshu 可以通过权限访问资源一 `/resource/r1`；Eric 可以通过权限访问资源二 `/resource/r2`。
 
 ***
 
 因为是 Spring MVC 项目，运行时需自行配置 Tomcat。
+

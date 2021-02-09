@@ -21,10 +21,8 @@ public class User {
     /**
      * 用户基本信息
      */
-    private String id;
-    private String password;
     private String username;
-    private String mobile;
+    private String password;
 
     /**
      * 存储用户权限

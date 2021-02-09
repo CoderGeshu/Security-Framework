@@ -18,7 +18,7 @@
 <body>
     <div class="wrapper">
         <form action="login" method="post">
-            <label>用户ID：<input type="text" name="id"></label>
+            <label>用户名：<input type="text" name="id"></label>
             <br><br>
             <label>密&nbsp;&nbsp;&nbsp;码: <input type="password" name="password"></label>
             <br><br>

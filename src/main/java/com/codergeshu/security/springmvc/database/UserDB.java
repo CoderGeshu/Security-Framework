@@ -23,7 +23,7 @@ public class UserDB {
         authorities1.add("p1");
         Set<String> authorities2 = new HashSet<>();
         authorities2.add("p2");
-        userMap.put("1001", new User("1001", "123456", "CoderGeshu", "123456", authorities1));
-        userMap.put("1002", new User("1002", "456789", "Eric", "789012", authorities2));
+        userMap.put("CoderGeshu", new User("CoderGeshu", "123456", authorities1));
+        userMap.put("Eric", new User("Eric", "456789", authorities2));
     }
 }
