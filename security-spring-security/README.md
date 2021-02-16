@@ -1,4 +1,6 @@
-# Security-Spring-Security 项目简介
+# Security-Spring-Security 项目
+
+### 简介
 
 使用 Spring Security 框架实现的认证授权功能。
 
@@ -6,7 +8,13 @@
 
 ***
 
-系统用户及权限：
+### 系统运行
+
+运行时需自行配置 Tomcat 及部署访问路径。
+
+***
+
+### 系统用户及权限
 
 - 用户名：CoderGeshu，密码：123456，权限：p1；
 - 用户名：Eric，密码：456789，权限：p2；

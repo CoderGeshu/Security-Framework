@@ -1,6 +1,10 @@
-# Security-SpringBoot 项目简介
+# Security-SpringBoot 项目
+
+### 简介
 
 使用 Spring Boot 集成 Spring Security 的项目。
+
+***
 
 ### 项目运行
 
@@ -9,6 +13,8 @@
 使用 `src/main/resources/static/db/create.sql` 语句进行数据库的创建（本人使用 MySQL 5.5）；
 
 然后即可运行 `SecuritySpringbootApplication.java` 启动项目。
+
+浏览器访问：`localhost:8080/security-springboot` 即可进入登录页面。
 
 ***
 
